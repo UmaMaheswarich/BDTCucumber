@@ -10,6 +10,7 @@ import io.cucumber.junit.CucumberOptions;
 		features = "D:\\Javaworks\\BDTCucumber\\src\\test\\resources\\Features\\login.feature"
 		//features = "D:\\Javaworks\\BDTCucumber\\src\\test\\resources\\Features\\course.feature"
 		,glue = {"StepDefinitions"}
+		,dryRun = false
 		,plugin = {"pretty" ,"html:target/HTMLReports/reports.html",
 				"json:target/JsonReports/reports.json",
 				"junit:target/JUnitReports/reports.xml"
