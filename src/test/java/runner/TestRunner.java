@@ -7,9 +7,9 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = "D:\\Javaworks\\BDTCucumber\\src\\test\\resources\\Features\\login.feature"
+		features = "src/test/resources/Features/login.feature"
 		//features = "D:\\Javaworks\\BDTCucumber\\src\\test\\resources\\Features\\course.feature"
-		,glue = {"StepDefinitions"}
+		,glue = {"stepDefinitions"}
 		,dryRun = false
 		,plugin = {"pretty" ,"html:target/HTMLReports/reports.html",
 				"json:target/JsonReports/reports.json",

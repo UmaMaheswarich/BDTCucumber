@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<testsuite name="Cucumber" time="8.752" tests="1" skipped="0" failures="0" errors="0">
-<testcase classname="Feature to test login functionality" name="Validate Login functionality is working" time="8.545">
+<testsuite name="Cucumber" time="9.892" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Feature to test login functionality" name="Validate Login functionality is working" time="9.688">
 <system-out><![CDATA[
 Given user to open the application..........................................passed
 And Click on the Login menu.................................................passed
